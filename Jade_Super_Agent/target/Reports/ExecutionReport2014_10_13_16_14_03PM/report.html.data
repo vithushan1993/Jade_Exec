@@ -1,0 +1,78 @@
+
+<report>	
+	<activity
+	user="nvithushan"
+	host="localhost"
+	osversion="6.1"
+	language="EN-US"
+	screenresolution="1366X768"
+	timestamp="10/13/2014 4:14:03 PM"
+	result="Success"
+	duration="UNKNOWN"
+	type="root"
+	totalerrorcount="0"
+	totalwarningcount="0"
+	totalsuccesscount="1"
+	totalfailedcount="0"
+	totalblockedcount="0">
+	<detail>
+		Test Execution Report
+	</detail>
+	<activity
+			testsuitename="VTAF Test Execution Report"
+			runconfigname=""
+			runlabel=""
+			maxchildren="0"
+			result="Success"
+			duration="UNKNOWN"
+			type="test suite"
+			rid="a106eb7a56abd88">
+			
+			<activity
+					foldername="test suite1"
+					result="Success"
+					duration="0ms"
+					type="folder"
+					rid="1">
+					<params/>
+					
+					<activity
+						testcasename="test case1"
+						datasource=""
+						iterationcount="1"
+						maxchildren="0"
+						result="Success"
+						duration="0ms"
+						type="test case"
+						rid="2">
+						<activity
+							modulename="test case1"
+							moduletype="UserCode"
+							result="Success"
+							duration="0ms"
+							type="test module"
+							rid="2">
+							
+							<datarow>
+							</datarow>
+									
+
+								<item
+									time="4:14:19"
+									level="Success"
+									category="OPEN : http://www.hsbc.lk/">
+									<message>
+										http://www.hsbc.lk/
+									</message>
+									<metainfo
+										codefile="UNKNOWN"
+										codeline="UNKNOWN"
+										loglvl="Success"/>
+								</item>	
+						</activity>
+					</activity>
+			</activity>
+	</activity>
+	</activity>
+
+</report>

@@ -1,0 +1,12 @@
+<TestCase name="SearchPromotions" type="DDTC" recovery="false" datatable="HsbcDemoSearchPromotionstestCaseSpecificVirtualDatatable" position="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/New folder/VTAF/base-qa-3.0.5.2/generator/xsd/TestCase.xsd">
+	
+	<SelectedDataTableNames name="SearchData"> </SelectedDataTableNames>
+	<SelectedDataTableNames name="GlobelSearch"> </SelectedDataTableNames>
+ 
+	<Open page="hsbc"  ms="5000"  />
+	<Type object="hsbc.SearchIF"  text="@SearchData_link" />
+ 	<Click object="hsbc.Personal_Link"  />
+ 	<Click object="hsbc.CreditCard_tab"  />
+	<CheckElementPresent object="hsbc.Img_Hotel_logo"  Identifire="Hotel_Name_PARAM:@SearchData_ResultHotelName"  fail="true"  customErrorMessage="Searched hotel name is not present in the page."  />
+</TestCase>

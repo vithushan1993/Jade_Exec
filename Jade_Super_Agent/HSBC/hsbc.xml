@@ -1,0 +1,17 @@
+<Page name="hsbc" url="http://www.hsbc.lk/" position="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/New folder/VTAF/base-qa-3.0.5.2/generator/xsd/ObjectMap.xsd" >
+		<Object name="SearchIF"  seleniumwebdriver="css=input[id=&apos;searchString&apos;]" />
+		<Object name="SearchBtn"  seleniumwebdriver="css=input[type=&apos;image&apos;]" />
+		<Object name="SearchScopeDDwn"  seleniumwebdriver="css=select[name=&quot;stask&quot;]" />
+		<Object name="SearchResultLink"  seleniumwebdriver="link=&lt;ResultText&gt;" />
+		<Object name="ResultPageWindow"  seleniumwebdriver="HSBC Visa Signature | HSBC Sri Lanka" />
+		<Object name="ResultHotelName"  seleniumwebdriver="//strong[text()=&apos;&lt;HotelName&gt;&apos;]" />
+		<Object name="Signature_label"  seleniumwebdriver="//*[text()=&apos;HSBC Visa &lt;Name&gt;&apos;]" />
+		<Object name="Personal_Link"  seleniumwebdriver="link=Personal" />
+		<Object name="CreditCard_tab"  seleniumwebdriver="css=a[title=&quot;Credit Card&quot;]" />
+		<Object name="Offers_links"  seleniumwebdriver="link=&lt;Special_Offers_Discounts_links&gt;" />
+		<Object name="VerifySearch"  seleniumwebdriver="css=h2:contains(&quot;You searched for:  &lt;searchText&gt;&quot;)]" />
+		<Object name="Btn_Findoutmore"  seleniumwebdriver="css=area[id=&quot;localfm&quot;]" />
+		<Object name="Img_Hotel_logo"  seleniumwebdriver="//h3[text()=&apos;&lt;Hotel_Name&gt;&apos;]" />
+		<Object name="sssss"  seleniumwebdriver="//a[@title=&apos;Personal&apos;]" />
+</Page>

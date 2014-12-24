@@ -1,0 +1,13 @@
+
+ 	<TestCase name="a" type="SIMPLETC" recovery="false" position="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/VTAF_Install_3.0.5.2_Release_1/VTAF/xsd/TestCase.xsd" >
+ 
+ 
+ 
+ 	<Open page="gmail"  ms="8000"  />
+ 	<Click object="gmail.createAccount"  />
+ 	<Pause ms="8000"  />
+ 	<Open page="c2"  ms="5000"  />
+ 	<Screenshot name="image"  />
+
+  </TestCase>

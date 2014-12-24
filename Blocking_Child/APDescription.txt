@@ -1,0 +1,1 @@
+( ap-description  :name "ChildCont" :ap-services (set ( ap-service  :name fipa.mts.mtp.http.std :type fipa.mts.mtp.http.std :addresses (sequence http://CD-NVITHUSHAN.Virtusa.com:7778/acc))))

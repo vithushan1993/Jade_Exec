@@ -1,0 +1,25 @@
+<DataTables xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="file://C:/New folder/VTAF/base-qa-3.0.5.2/generator/xsd/DataTables.xsd" >
+	<Table name="SearchData" position="0">
+		<Header>
+			<Column name="ResultHotelName" type="String" />
+			<Column name="link" type="String" />
+		</Header>
+		<Row>
+			<Value>Roman Pond &#8211; Balapitiya</Value>
+			<Value>Fun and Travel</Value>
+		</Row>
+		<Row>
+			<Value>Greece Ocean &#8211; Kollupitiya</Value>
+			<Value>Holiday and Travel</Value>
+		</Row>
+	</Table>
+	<Table name="GlobelSearch" position="1">
+		<Header>
+			<Column name="searchString" type="String" />
+		</Header>
+		<Row>
+			<Value>Colombo Branch</Value>
+		</Row>
+	</Table>
+</DataTables>

@@ -1,0 +1,5 @@
+Uvin@uvinCont!Mac!Chrome!Sellinium!http://CD-UWITHANA.Virtusa.com:7778/acc
+Uvin@uvinCont!Windows!Firefox!Sellinium!http://CD-UWITHANA.Virtusa.com:7778/acc
+Vithushan@superContainer!Mac!Chrome!QTP!http://CD-NVITHUSHAN.Virtusa.com:7778/acc
+Vithushan@superContainer!Unix!IE!QTP!http://CD-NVITHUSHAN.Virtusa.com:7778/acc
+Vithushan@superContainer!Mac!Chrome!Sellinium!http://CD-NVITHUSHAN.Virtusa.com:7778/acc

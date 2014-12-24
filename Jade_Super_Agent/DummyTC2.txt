@@ -1,0 +1,57 @@
+{	
+	[{
+		"@class":"TestCase",
+		"expression":{
+			"@class":"Expression",
+			"command":{
+				"@class":"OpenCommand",
+				"@rid":"#3:52",
+				"Page":{
+					"name":"SomeName",
+					"url":"http://www.hsbc.lk/",
+					"description":null},
+				"ms":2000
+			}
+		}
+	},{
+		"@class":"TestCase",
+		"expression":{
+			"@class":"Expression",
+			"command":{
+				"@class":"TypeCommand",
+				"uiobject":{
+					"@class":"UIObject",
+					"type":"UIObject",
+					"name":"PageName",
+					"identifier":{
+						"@class":"Identifier",
+						"@rid":"#45:54",
+						"identifier":"css=input[id=&apos;searchString&apos;]",
+						"framework":"SeleniumWebDriver"
+					}
+				},
+				"text":{
+					"value":{
+						"@class":"Value",
+						"@rid":"#46:55",
+						"string":null,
+						"column":{
+							"@class":"Column",
+							"@rid":"#35:54",
+							"name":"link",
+							"row":[{
+								"@class":"Row",
+								"@rid":"#62:54",
+								"value":"Fun and Travel"
+							},{
+								"@class":"Row",
+								"@rid":"#53:54",
+								"value":"Max and Min"
+							}]
+						}
+					}
+				}
+			}	
+		}
+	}]
+}
